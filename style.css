@@ -49,6 +49,76 @@ body
     grid-area: 1 / 2 / 2 / 3;
     box-shadow: 0px 5px 5px lightgray;
     display: grid;
+    grid-template: 0.4fr 0.6fr / 0.7fr 0.3fr;
+    align-items: center;
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+#searchSection
+{
+    display: grid;
+    grid-template: 1fr / 30px 1fr;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+#searchBar
+{
+    width: 90%;
+    background-color: #e1e8f0;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    height: 35px;
+}
+
+#notifications
+{
+    display: grid;
+    grid-template: 1fr / 28px 65px 1fr;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 4rem;
+}
+
+#accountSection
+{
+    display: grid;
+    grid-template: 80px / 80px 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+#buttons
+{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+#buttons > button
+{
+    background-color: #1c90d5;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 25px;
+}
+
+#buttons > button:hover
+{
+    background-color: #1978af;
+}
+
+#buttons > button:active
+{
+    transform: translateY(4px);
+    background-color: #14608b;
+    box-shadow: 0px 2px 1px lightgray;
 }
 
 #mainContent
