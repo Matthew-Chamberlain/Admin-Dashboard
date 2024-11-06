@@ -3,9 +3,7 @@ body
     font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0;
     display: grid;
-    grid-template: 1fr 5fr / 1fr 5fr;
-    width: 100vw;
-    height: 100vh;
+    grid-template: 1fr 5fr / 1fr minmax(1200px, 5fr);
 }
 
 #sideBar
@@ -15,6 +13,7 @@ body
     grid-template: 0.15fr 1fr 1fr / 1fr;
     background-color: #1892d3;
     color: white;
+    padding: 1rem 3rem 1rem 1rem;
 }
 
 #sideBarLogo
@@ -22,7 +21,6 @@ body
     display: grid;
     grid-template: 1fr / 0.25fr 1fr;
     align-items: center;
-    padding-left: 1rem;
     
 }
 
